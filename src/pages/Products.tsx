@@ -22,10 +22,8 @@ export default function Products() {
   const dispatch = useAppDispatch();
 
   const handleSlider = (value: number[]) => {
-    dispatch(setPriceRange(value[0]));
-  }
-
-
+    dispatch(setPriceRange(value[0]))
+  };
 
   let productsData;
 
